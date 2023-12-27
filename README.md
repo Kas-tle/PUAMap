@@ -1,4 +1,4 @@
-# PUAMap
+# PUAMap [![License: AGPL](https://img.shields.io/badge/license-AGPL-blue.svg)](LICENSE) [![npm version](https://badge.fury.io/js/puamap.svg)](https://badge.fury.io/js/puamap)
 Remaps custom emoji in a Minecraft resource pack to use the Unicode Private Use Area
 
 ## Usage
@@ -10,7 +10,7 @@ npx puamap
 ## Options
 Options are generally automatically configured and written to `config.json` on run.
 - `inputJavaPack`: The path to the input Java Edition resource pack
-- `startCharcter`: The first character to use in the remapping (default: `\uE000`)
+- `startCharcter`: The first character to use in the remapping (default: `\uE200`)
 - `maxIgnoreCharacter`: The highest character ignore in remapping (default: `\u007F`)
 
 ## Outputs
