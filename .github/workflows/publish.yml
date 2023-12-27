@@ -33,7 +33,7 @@ jobs:
                 cd ..
             - name: Get package version
               id: get_version
-              run: echo ::set-output name=version::$(jq -r ".version" package.json)
+              run: echo "version=$(jq -r '.version' package.json)" >> $GITHUB_OUTPUT
             - name: Make release
               id: release
               uses: Kas-tle/base-release-action@95bf169cd0975b3fba91535309d416801aa97a38
