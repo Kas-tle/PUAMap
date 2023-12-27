@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "Remaps custom emoji in a Minecraft resource pack to use the Unicode Private Use Area",
     "repository": "https://github.com/Kas-tle/PUAMap.git",
+    "bugs": {
+        "url": "https://github.com/Kas-tle/PUAMap/issues"
+    },
     "author": "Joshua Castle <packages@kastle.dev>",
     "license": " AGPL-3.0-only",
     "scripts": {
